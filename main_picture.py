@@ -13,7 +13,7 @@ cut_text= jieba.cut(text,cut_all=False)
 result= "/".join(cut_text)#必须给个符号分隔开分词结果,否则不能绘制词云  
   
 #3、初始化自定义背景图片  
-image = Image.open(r'backgound.jpg')  
+image = Image.open(r'background.jpg')  
 graph = np.array(image)  
   
 #4、产生词云图  
